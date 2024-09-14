@@ -635,8 +635,9 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    white-space: nowrap; 
-
+    white-space: nowrap; /* Prevent wrapping on smaller screens */
+    overflow: hidden;    /* Ensure it doesn't overflow the screen */
+    text-overflow: ellipsis;
     
   }
 

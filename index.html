@@ -490,6 +490,12 @@
             }
           }
         });
+        const lang = document.documentElement.lang; // Assuming you have <html lang="en"> or <html lang="fr">
+      if (lang === "fr") {
+        document.querySelector("#hero h1").style.whiteSpace = "nowrap"; // Prevent wrapping
+        document.querySelector("#hero h1").style.overflow = "hidden";  // Ensure it doesn't overflow
+    document.querySelector("#hero h1").style.textOverflow = "ellipsis"; 
+      }
       }
   
       // Function to reset the translation back to English
