@@ -483,11 +483,25 @@ h6 {
 
 #hero .container {
   padding-top: 110px;
+  text-align: left; /* Align text to the left for larger screens */
 }
 
 @media (max-width: 992px) {
   #hero .container {
     padding-top: 98px;
+    text-align: left; /* Align text to the left for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 
@@ -498,10 +512,11 @@ h6 {
   line-height: 56px;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 
-#hero h1 span {
-  color: #cda45e;
+#hero h1 .highlight-gold {
+  color: #cda45e; 
 }
 
 #hero h2 {
@@ -509,6 +524,8 @@ h6 {
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
+
+/* Rest of your CSS remains unchanged */
 
 #hero .btns {
   margin-top: 30px;
@@ -795,29 +812,30 @@ section {
 }
 
 .about .about-img img {
-  max-width: 100%;
   border: 4px solid rgba(255, 255, 255, 0.2);
-  position: relative;
+  width: 72%; /* Default width for larger screens */
+  height: 55vh; /* Shorter height for larger screens */
 }
 
-.about .about-img::before {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  width: 60px;
-  height: 60px;
-  z-index: 1;
-  content: "";
-  transition: 0.5s;
+/* For tablets and medium screens */
+@media (max-width: 1024px) {
+  .about .about-img img {
+    width: 85%;
+    height: 50vh;
+  }
 }
 
+/* For mobile screens */
+@media (max-width: 768px) {
+  .about .about-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+.about .about-img::before, 
 .about .about-img::after {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
-  width: 60px;
-  height: 60px;
-  z-index: 2;
+  z-index: 1;
   content: "";
   transition: 0.5s;
 }
@@ -863,6 +881,18 @@ section {
 @media (min-width: 1024px) {
   .about {
     background-attachment: fixed;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .about .about-img {
+    margin-left: 0; /* Reset margin on mobile */
+  }
+
+  .about .about-img img {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Let the height adjust automatically */
   }
 }
 

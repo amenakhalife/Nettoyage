@@ -34,15 +34,15 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span style="margin-right: 5px">+1 514 776 8878 / +1 514 945 8878</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span style="margin-right: 5px">+1 514 776 8878</span></i>
 
-        <i class="bi bi-clock d-flex align-items-center ms-4"  ><span id="schedule" class="translate"> Schedule : Mon-Sat</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"  ><span id="schedule" class="translate"> Schedule : 24 / 7 </span></i>
       </div>
 
-      <div class="languages d-none d-md-flex align-items-center">
+      <div class="languages d-block d-flex align-items-center ms-auto">
         <ul>
-          <li>En</li>
-          <li><a href="#" id="fr-link" class="translate">Fr</a></li>
+          <li><a href="#" id="en-link">En</a></li>
+          <li><a href="#" id="fr-link">Fr</a></li>
         </ul>
       </div>
     </div>
@@ -82,7 +82,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1 id="welcome" class="translate">Welcome to <span>Nettoyage En OR</span> </h1>
+          <h1 id="welcome" class="translate">Welcome to <span class="highlight-gold">Nettoyage En Or</span> </h1>
           <h2 id="desc00" class="translate">Cleaning services for  enterprises , clinics, and offices</h2>
 
           <div class="btns">
@@ -107,15 +107,13 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="ali.jpeg" alt="" style="max-width: 49%; height: 45vh; margin-right: 5%;">
-              <img src="mohammad.jpeg" alt="" style="max-width: 59% ; height: 45vh;">
-
+              <img src="assets/img/ali1.jpeg" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3 id="title00" class="translate">Get to know the owners </h3>
+            <h3 id="title00" class="translate">Get to know the owner </h3>
             <p class="fst-italic translate" id="intro">
-              Meet Ali and Mohammad Khalife, the brothers behind <strong> Nettoyage En Or </strong>, your trusted partners in cleaning services. They take pride in their Lebanese heritage and the strong work ethic it instilled in them. They believe in building long-term relationships with their clients, and they're dedicated to providing exceptional cleaning services that exceed your expectations. Their attention to detail, commitment to quality, and dedication to customer satisfaction have earned them a reputation for reliability and trustworthiness.
+              Meet Ali , the person behind <strong> Nettoyage En Or </strong>, your trusted partner in cleaning services. He takes pride in his Lebanese heritage and the strong work ethic it instilled in him. Ali believes in building long-term relationships with his clients, and he's dedicated to providing exceptional cleaning services that exceed your expectations. His attention to detail, commitment to quality, and dedication to customer satisfaction have earned him a reputation for reliability and trustworthiness.
               <pre id="promise" class="translate"> We can confidently promise you :</pre> </p>
             <ul>
               <li style="display: flex; align-items: center;"><i class="bi bi-check-circle" ></i> <p class="translate" id="promise01">An impeccably clean environment delivered to you by our professional cleaning team. </p></li>
@@ -178,72 +176,117 @@
           <p id="check" class="translate">Check Our Pricing</p>
         </div>
 
-        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Offices and clinics</li>
-              <li data-filter=".filter-salads">Pre-occupancy appartments</li>
-              <li data-filter=".filter-specialty">Schools</li>
+              <li data-filter="*" class="filter-active translate" id="all">All</li>
+              <li data-filter=".filter-commercial" class="translate" id="commercial">Commercial</li>
+              <li data-filter=".filter-residential" class="translate" id="residential">Residential</li>
+              <li data-filter=".filter-specialty" class="translate" id="specialty">Specialized Cleaning</li>
             </ul>
           </div> 
-        </div> -->
+        </div> 
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200" id='Menu1122'>
 
-        <div class="col-lg-6 menu-item filter-starters">
+        <div class="col-lg-6 menu-item filter-commercial">
             <!-- <img src="assets/img/menu/misosoup.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="office" class="translate">Offices and Clinics</a><span>$ 50</span>
+              <a  id="smalloffice" class="translate">Small Office</a><span>$ 130</span>
             </div>
             <div class="menu-ingredients translate" id="desc01">
-              50$ per hour including dishwashing, dusting, and deep cleaning.
+              <!-- 50$ per hour including dishwashing, dusting, and deep cleaning. -->
+              up to 100 sqm
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-starters">
-            <!-- <img src="assets/img/menu/springrolls.jpg" class="menu-img" alt=""> -->
+          <div class="col-lg-6 menu-item filter-commercial">
+            <!-- <img src="assets/img/menu/misosoup.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt1" class="translate"> Appartments (2.5 rooms)</a><span>$ 140</span>
+              <a  id="mediumoffice" class="translate">Medium sized Office</a><span>$ 170</span>
             </div>
             <div class="menu-ingredients translate" id="desc02">
-              Pre-occupancy cleaning services for apartments.  Your new space will be sparkling clean before you move in and just for 140$. 
+              <!-- 50$ per hour including dishwashing, dusting, and deep cleaning. -->
+              100-250 sqm
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
+          <div class="col-lg-6 menu-item filter-commercial">
+            <!-- <img src="assets/img/menu/misosoup.jpg" class="menu-img" alt=""> -->
+            <div class="menu-content">
+              <a id="largeoffice" class="translate">Large Office</a><span>$ 210</span>
+            </div>
+            <div class="menu-ingredients translate" id="desc03">
+              <!-- 50$ per hour including dishwashing, dusting, and deep cleaning. -->
+             250+ sqm
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-commercial">
+            <!-- <img src="assets/img/menu/misosoup.jpg" class="menu-img" alt=""> -->
+            <div class="menu-content">
+              <a id="retail" class="translate">Retail Store</a><span>$ 310</span>
+            </div>
+            <div class="menu-ingredients translate" id="desc04">
+              <!-- 50$ per hour including dishwashing, dusting, and deep cleaning. -->
+             Starting at $ 350 per month. Price varies according to size and weekly cleaning schedule
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-residential">
+            <!-- <img src="assets/img/menu/springrolls.jpg" class="menu-img" alt=""> -->
+            <div class="menu-content">
+              <a id="studio" class="translate"> Studio</a><span>$ 85</span>
+            </div>
+            <div class="menu-ingredients" >
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item filter-residential">
+            <!-- <img src="assets/img/menu/springrolls.jpg" class="menu-img" alt=""> -->
+            <div class="menu-content">
+              <a  id="apprt2" class="translate"> 2.5 Apartment</a><span>$ 110</span>
+            </div>
+            <div class="menu-ingredients">
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-residential">
             <!-- <img src="assets/img/menu/chickennoodles.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt2" class="translate"> Appartments (3.5 rooms)</a><span>$ 180</span>
+              <a id="apprt3" class="translate"> 3.5 Apartment </a><span>$ 140</span>
             </div>
             <div class="menu-ingredients">
               <!-- We specialize in pre-occupancy cleaning services for apartments.  Your new space is sparkling clean before you move in.  -->
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
+          <div class="col-lg-6 menu-item filter-residential">
             <!-- <img src="assets/img/menu/shrimpnoodles.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt3" class="translate">Appartments (4.5 rooms)</a><span>$ 240</span>
+              <a id="apprt4" class="translate">4.5 Apartment</a><span>$ 170</span>
             </div>
             <div class="menu-ingredients">
               <!-- we only clean appartments that are unoccupied. Before moving in, give us a call and we'll organize it just for 240$.  -->
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-specialty">
+          <div class="col-lg-6 menu-item filter-residential">
             <!-- <img src="assets/img/menu/starterset.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt4" class="translate">Appartments (5.5 rooms)</a><span>$ 280</span>
+              <a id="apprt5" class="translate">5.5 Apartment</a><span>$ 210</span>
             </div>
             <div class="menu-ingredients">
               <!-- we only clean appartments that are unoccupied. Before moving in, give us a call and we'll organize it just for 280$.  -->
           </div>
-</div>
+          </div>
+
           <div class="col-lg-6 menu-item filter-specialty">
             <!-- <img src="assets/img/menu/crabset.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt5" class="translate">Appartments (duplex)</a><span>$350</span>
+              <a id="carpet" class="translate">Carpet Cleaning</a><span>$ 100</span>
             </div>
             <div class="menu-ingredients">
               <!-- we only clean appartments that are unoccupied. Before moving in, give us a call and we'll organize it just for 350$.  -->
@@ -251,24 +294,24 @@
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-salads">
+          <div class="col-lg-6 menu-item filter-specialty">
             <!-- <img src="assets/img/menu/tunasalad.jpg" class="menu-img" alt=""> -->
             <div class="menu-content">
-              <a href="#" id="apprt6" class="translate">Appartments (triplex)</a><span>$480</span>
+              <a id="window" class="translate">Window Cleaning</a><span>$ 75</span>
             </div>
-            <div class="menu-ingredients">
-              <!-- we only clean appartments that are unoccupied. Before moving in, give us a call and we'll organize it just for 480$.  -->
+            <div class="menu-ingredients translate" id="desc05" >
+              Up to 10 windows
             </div>
           </div>
 
-          <div class="col-lg-6 menu-item filter-salads">
+          <!-- <div class="col-lg-6 menu-item filter-salads"> -->
             <!-- <img src="assets/img/menu/salmonsalad.jpg" class="menu-img" alt=""> -->
-            <div class="menu-content">
+            <!-- <div class="menu-content">
               <a href="#" id="schools" class="translate">Schools</a><span>$ 40</span>
             </div>
             <div class="menu-ingredients translate" id="desc03">
               40$ for each class            </div>
-          </div>
+          </div> -->
 
           <!-- <div class="col-lg-6 menu-item filter-salad">
              <img src="assets/img/menu/crabsalad.jpg" class="menu-img" alt="">
@@ -315,7 +358,7 @@
                 <i class="bi bi-clock"></i>
                 <h4 id="openHours" class="translate">Open Hours:</h4>
                 <p id="days" class="translate">
-                  Monday-Saturday:<br>
+                  24 / 7<br>
                 </p>
               </div>
 
@@ -329,7 +372,6 @@
                 <i class="bi bi-phone"></i>
                 <h4 id="call" class="translate">Call:</h4>
                 <p>+1 5147768878</p>
-                <p>+1 5149458878</p>
               </div>
 
             </div>
@@ -387,7 +429,7 @@
               </p>
               <div class="social-links mt-3">
                 <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-                <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+                 <a href="https://www.facebook.com/share/QMFZKzy8Hr8QKYi5/?mibextid=LQQJ4dp" class="facebook"><i class="bx bxl-facebook"></i></a> 
                 <a href="https://www.instagram.com/nettoyage.enor" class="instagram"><i class="bx bxl-instagram"></i> </a>
                 
                 <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
@@ -425,41 +467,53 @@
 
   <script type="module">
     import { translationsFR } from './assets/js/french.js';
-
+  
     document.addEventListener('DOMContentLoaded', function () {
-    const elementsToTranslate = document.querySelectorAll('.translate'); // Select elements with the class "translate"
-
-    function translateToFrench() {
+      const elementsToTranslate = document.querySelectorAll('.translate'); // Select elements with the class "translate"
+  
+      // Store original English text in a data attribute before any translation
       elementsToTranslate.forEach((element) => {
-        const key = element.id; // Use the element's ID as the translation key
-        if (translationsFR.hasOwnProperty(key)) {
-          element.textContent = translationsFR[key];
+        if (!element.getAttribute('data-original-html')) {
+          element.setAttribute('data-original-html', element.innerHTML); // Use innerHTML to preserve styling
         }
       });
-    }
-
-    document.getElementById('fr-link').addEventListener('click', function (event) {
-      event.preventDefault();
-      translateToFrench();
+  
+      // Function to translate the website to French
+      function translateToFrench() {
+        elementsToTranslate.forEach((element) => {
+          const key = element.id; // Assuming the elements have unique IDs for translation keys
+          if (translationsFR.hasOwnProperty(key)) {
+            if (key === 'welcome') { // Special handling for the styled "Welcome to Nettoyage En Or"
+              element.innerHTML = `Bienvenue chez <span style="color: #cda45e;">Nettoyage En Or</span>`;
+            } else {
+              element.textContent = translationsFR[key]; // For other elements, apply normal translation
+            }
+          }
+        });
+      }
+  
+      // Function to reset the translation back to English
+      function translateToEnglish() {
+        elementsToTranslate.forEach((element) => {
+          const originalHtml = element.getAttribute('data-original-html');
+          element.innerHTML = originalHtml; // Restore original HTML to keep the styles
+        });
+      }
+  
+      // Add event listener for the "Fr" link to translate to French
+      document.getElementById('fr-link').addEventListener('click', function (event) {
+        event.preventDefault();
+        translateToFrench();
+      });
+  
+      // Add event listener for the "En" link to reset to English
+      document.getElementById('en-link').addEventListener('click', function (event) {
+        event.preventDefault();
+        translateToEnglish();
+      });
     });
-  });
-    // function translateToFrench() {
-    //     for (var key in translationsFR) {
-    //         var element = document.getElementById(key);
-    //         if (element) {
-    //             element.textContent = translationsFR[key];
-    //         }
-    //     }
-    // }
-
-    // document.getElementById('fr-link').addEventListener('click', function(event) {
-    //     event.preventDefault();
-    //     translateToFrench();
-    //     console.log("French link clicked");
-    // });
-</script>
-
-
+  </script>
+  
 
 
   <!-- Vendor JS Files -->
