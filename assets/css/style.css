@@ -486,25 +486,6 @@ h6 {
   text-align: left; /* Align text to the left for larger screens */
 }
 
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 98px;
-    text-align: left; /* Align text to the left for smaller screens */
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -517,8 +498,8 @@ h6 {
 
 #hero h1 .highlight-gold {
   color: #cda45e; 
+  display: inline;
 }
-
 #hero h2 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
@@ -654,6 +635,9 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    white-space: nowrap; 
+
+    
   }
 
   #hero h2 {
