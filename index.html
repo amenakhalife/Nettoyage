@@ -485,7 +485,7 @@
           const key = element.id; // Assuming the elements have unique IDs for translation keys
           if (translationsFR.hasOwnProperty(key)) {
             if (key === 'welcome') { // Special handling for the styled "Welcome to Nettoyage En Or"
-              element.innerHTML = `Bienvenue chez <span style="color: #cda45e;">Nettoyage En Or</span>`;
+              element.innerHTML = `Bienvenue chez <span class="highlight-gold">Nettoyage En Or</span>`;
             } else {
               element.textContent = translationsFR[key]; // For other elements, apply normal translation
             }
@@ -493,7 +493,7 @@
         });
         const lang = document.documentElement.lang; // Assuming you have <html lang="en"> or <html lang="fr">
       if (lang === "fr") {
-        document.querySelector("#hero h1").style.whiteSpace = "nowrap"; // Prevent wrapping
+        document.querySelector("#hero h1").style.whiteSpace = "normal"; // Prevent wrapping
         document.querySelector("#hero h1").style.overflow = "visible";  // Ensure it doesn't overflow
       }
       }
