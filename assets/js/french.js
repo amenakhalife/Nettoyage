@@ -49,7 +49,23 @@ var translationsFR = {
     "days":"24 / 7",
     "email":"Courriel",
     "call":"Appel",
-    "links":"Liens Utiles"
+    "links":"Liens Utiles",
+    "reservation":"Réservation",
+    "booking":"Réserver un Service",
+    "name1":"Votre Nom",
+    "email1":"Votre Email",
+    "phone1":"Votre Téléphone",
+    "load":"Chargement",
+    "thanks":"Votre demande de réservation a été envoyée. Nous vous rappellerons ou vous enverrons un email pour confirmer votre réservation. Merci !",
+    "select":"Sélectionnez un service",
+     "thankyou-header": "Merci pour votre soumission!",
+     "appreciation-header": "Nous apprécions votre intérêt",
+     "received-message": "Votre demande a été reçue et nous vous répondrons sous peu.",
+    "next-steps-header": "Quelles sont les prochaines étapes?",
+    "next-steps": "Notre équipe examine maintenant votre demande et répondra dans les 24 à 48 heures.",
+    "assistance-header": "Besoin d'une assistance immédiate?",
+    "contact-info": "N'hésitez pas à nous contacter à <a href='mailto:nettoyageenor@hotmail.com'>nettoyageenor@hotmail.com</a>"
+    
 };
 
 export { translationsFR };
